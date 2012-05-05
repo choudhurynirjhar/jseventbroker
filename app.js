@@ -41,4 +41,4 @@ eventBroker.register("myevent", function (eventArgs){
 });
 eventBroker.raise("myevent", "Hello World!");
 eventBroker.unregister("myevent");
-eventBroker.raise("myevent", "Hello Workd!");
+eventBroker.raise("myevent", "Hello World!");
